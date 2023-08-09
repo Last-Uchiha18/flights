@@ -1,6 +1,7 @@
 import './testimonials.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Testimonials() {
     return (
@@ -16,7 +17,7 @@ function Testimonials() {
                     </h3>
                     
                     <div className="by">
-                            <img src="/flights/hp.webp" alt="" />
+                            <LazyLoadImage src="/flights/hp.webp" alt="" />
                             <h4> Parry Hotter </h4>
                             <FontAwesomeIcon icon={faQuoteRight} style={{color: "#EF1C24",}} className='testIcon' />
                     </div>
@@ -26,7 +27,7 @@ function Testimonials() {
                         &quot;The car was in great condition and made our trip even better. Highly recommend for this car rental website!&quot;
                     </h3>
                     <div className="by">
-                            <img src="/flights/hp.webp" alt="" />
+                            <LazyLoadImage src="/flights/hp.webp" alt="" />
                             <h4> Gojo Satoru </h4>
                             <FontAwesomeIcon icon={faQuoteRight} style={{color: "#EF1C24",}} className='testIcon'/>
                     </div>

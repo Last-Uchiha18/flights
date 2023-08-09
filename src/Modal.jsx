@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfo } from '@fortawesome/free-solid-svg-icons';
 import { faLocationDot, faCalendarDays, faXmark } from '@fortawesome/free-solid-svg-icons';
 import PersonalForm from './PersonalForm'; 
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Modal({rentDetails, onClose, onConfirmation}) {
 
@@ -67,7 +68,7 @@ function Modal({rentDetails, onClose, onConfirmation}) {
                     </div>
                     <div className="pickUpDetails-right">
                         <p> <strong>Bike:</strong> <span className='headings'>{rentDetails.bikeType}</span></p>
-                       <img src="/flights/bmw.png" alt="" className='pickUpImg'/>
+                       <LazyLoadImage src="/flights/bmw.png" alt="" className='pickUpImg'/>
                     </div>
 
                 </div>

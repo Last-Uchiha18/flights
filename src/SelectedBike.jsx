@@ -1,4 +1,5 @@
 // eslint-disable-next-line react/prop-types
+import { LazyLoadImage } from "react-lazy-load-image-component";
 function SelectedBike({name}) {
     const details = {
         "Harley-Davidson": {Model: 'Harley', 
@@ -32,7 +33,7 @@ function SelectedBike({name}) {
     const currentBike = details[name]
     return (
         <>
-                <img src={currentBike.imgUrl} alt="" />
+                <LazyLoadImage src={currentBike.imgUrl} alt="" />
                 <div className="selected-bike">
                     <div className='rent'>
                         <h1> {currentBike.Rent}$ rent per day</h1>

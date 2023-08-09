@@ -1,4 +1,5 @@
 import './header.css'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 function Header() {
 
     const handleLinkClick = (event, targetId) => {
@@ -14,7 +15,7 @@ function Header() {
         <header>
   
             <a href="">
-                <img src="/flights/moto.webp" alt="Bike Logo" className='logo'/>
+                <LazyLoadImage src="/flights/moto.webp" alt="Bike Logo" className='logo'/>
             </a>
 
             <ul className='nav-links'>
