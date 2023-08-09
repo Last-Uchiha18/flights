@@ -1,0 +1,65 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 250px;
+    padding-right: 100px;
+}
+
+.allContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+.headLine {
+    font-size: 50px;
+    font-weight: bolder;
+    line-height:normal;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: rgb(239,28,36);
+}
+
+.content-btn-group {
+    margin-top: 20px;
+    display: flex;
+}
+
+.ride, .more {
+    padding: 20px 40px;
+    border-radius: 7px;
+    border: none;
+}
+
+.ride {
+    margin-right: 20px;
+    background-color: rgb(239,28,36);
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.more {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 1px solid black;
+}
+
+.mainBike {
+    max-width: 40%;
+    padding-right: 100px;
+}
+
+.more:hover {
+    background-color: white;
+    color: black;
+}

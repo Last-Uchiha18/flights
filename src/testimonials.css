@@ -1,0 +1,65 @@
+.testimonial {
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cards{
+    display: flex;
+    padding: 30px;
+    gap: 50px;
+    max-width: 1200px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 55px;
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,.08);
+    width: 540px;
+    
+}
+
+.testContent {
+    max-width: 600px;
+    margin-bottom: 40px;
+    color: #706F7B;
+}
+
+.testHeading {
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+.by {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+    align-self: flex-end;
+}
+
+.by > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.by > h4 {
+    font-size: 20px;
+}
+
+.testIcon {
+    font-size: 40px;
+}
+
+.card > h3 {
+    font-size: 22px;
+    font-weight: 500;
+}

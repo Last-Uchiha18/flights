@@ -1,0 +1,88 @@
+.booking {
+    background-color: white;
+    margin: 100px 250px;
+}
+
+.booking-info {
+    padding: 50px;
+}
+
+.booking-info > h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    column-gap: 40px;
+    row-gap: 30px;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+}
+
+.grid-item > select, .grid-item > input {
+    max-width: 300px;
+    padding: 10px;
+    border-color: rgb(204, 215,230);
+    border-radius: 5px;
+    border-style: solid 1px;
+}
+
+.grid-item > input {
+    max-width: 280px;
+}
+
+option {
+    color: rgb(171, 171, 171);
+}
+
+.icon {
+    margin-right: 10px;
+    
+}
+
+.icon2 {
+    margin-left: 5px;
+    position: absolute;
+}
+
+.search {
+    background-color: rgb(238, 28, 36);
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 35px;
+    max-width: 300px;
+    border-radius: 7px;
+}
+
+.showError {
+    background-color: rgb(239, 24, 36, 0.5);
+    padding: 5px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    font-weight: 800;
+    color:  rgb(66, 62, 62);
+    border-radius: 5px;
+}
+
+.showConfirmation {
+    background-color: rgba(119, 249, 165, 0.5);
+    padding: 5px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    font-weight: 800;
+    color:  rgb(66, 62, 62);
+    border-radius: 5px;
+}

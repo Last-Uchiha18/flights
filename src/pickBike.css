@@ -1,0 +1,76 @@
+.pickBike {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.pickBike > h2 {
+    font-size: 24px;
+   
+}
+
+.pickBike > h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.bike-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.bike-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.bike-buttons > button {
+    background-color: rgb(233, 233, 233);
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.bike-container > img {
+    width: 500px;
+}
+
+.bike-details {
+    padding: 10px;
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.rent {
+    background-color: rgb(239, 28, 36);
+    padding: 8px;
+    color: white;
+    font-size: 14px;
+}
+
+.reserve {
+    background-color: rgb(239, 28, 36);
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 10px;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.bike-buttons > .selectedButton, .bike-buttons > button:hover {
+    background-color: rgb(239, 28, 36);
+    color: white;
+}

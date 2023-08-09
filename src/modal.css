@@ -1,0 +1,108 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow: hidden;
+
+}
+  
+.modal {
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    overflow: auto;
+    max-height: 80vh
+}
+
+.modalHeader {
+    color: white;
+    font-size: 24px;
+    background-color: rgb(239, 36, 24);
+    padding: 10px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 800;
+}
+  
+.rentDetails {
+    background-color: rgb(254, 234, 230);
+    padding: 25px 40px;
+}
+
+.info {
+    background-color: rgb(239, 36, 24);
+    border-radius: 70%;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+  
+.rentDetails :nth-child(1) {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.rentDetails :nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.headings {
+    color: rgb(239, 36, 24);
+    font-weight: 800;
+    font-size: 20px;
+    
+}
+.pickUpDetails {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.pickUpImg {
+    max-width: 400px;
+}
+
+.pickUpDetails-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+}
+
+strong {
+    font-size: 20px;
+}
+
+.pickUpDetails-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.out {
+    font-weight: 700;
+}
+
+.in {
+    margin-left: 22px;
+    color: gray;
+    font-weight: 500;
+}
+
+.separator {
+    width: 100%;
+    background-color: gray;
+    height: 1px;
+    margin: 20px 0px;
+    color: white;
+}

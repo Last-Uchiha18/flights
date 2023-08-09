@@ -1,0 +1,38 @@
+.advt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 300px;
+    margin-top: 100px;
+}
+
+.advt > h1 {
+    font-size: 44px;
+    font-weight: bolder;
+}
+
+.advtGroup {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 80px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.item > h3 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.item > p {text-align: center;}
+
+.svg {
+    width: 100px;
+    height: 100px;
+}
