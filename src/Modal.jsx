@@ -67,7 +67,7 @@ function Modal({rentDetails, onClose, onConfirmation}) {
                     </div>
                     <div className="pickUpDetails-right">
                         <p> <strong>Bike:</strong> <span className='headings'>{rentDetails.bikeType}</span></p>
-                       <img src="./src/assets/bmw.png" alt="" className='pickUpImg'/>
+                       <img src="/flights/bmw.png" alt="" className='pickUpImg'/>
                     </div>
 
                 </div>

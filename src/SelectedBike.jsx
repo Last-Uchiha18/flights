@@ -9,7 +9,7 @@ function SelectedBike({name}) {
                             Fuel: 'Petrol', 
                             Power: '140hp', 
                             Rent: 45,
-                            imgUrl: "./src/assets/harley.png" },
+                            imgUrl: "/flights/harley.png" },
                             
         Honda: {Model: 'Honda', 
                 Mark: 'A1' , Year:2018 , 
@@ -18,15 +18,15 @@ function SelectedBike({name}) {
                 Fuel:'Diesel' , 
                 Power: '144hp', 
                 Rent: 55,
-                imgUrl: "./src/assets/honda.png"},
+                imgUrl: "/flights/honda.png"},
         BMW: {Model: 'BMW', Mark: 'A1', Year:2020 , Capacity: '910cc', Transmission: 'Automatic' , Fuel:'Petrol' , Power: '130hp', Rent: 50,
-        imgUrl: "./src/assets/bmw.png"},
+        imgUrl: "/flights/bmw.png"},
         Kawasaki: {Model: 'Kawasaki', Mark: 'A1', Year: 2015, Capacity: '840cc', Transmission: 'Automatic', Fuel: 'Diesel', Power: '160hp', Rent: 42,
-        imgUrl: "./src/assets/kawasaki.png"},
+        imgUrl: "/flights/kawasaki.png"},
         "Royal Enfield": {Model: 'Royal Enfield', Mark: 'A1', Year: 2021, 'Capacity': '865cc', Transmission: 'Manual', Fuel: 'Diesel', Power: '155hp', Rent: 69,
-        imgUrl: "./src/assets/re.png"},
+        imgUrl: "/flights/re.png"},
         Ducati: {Model: 'Ductati', Mark: 'A1', Year: 2017 , Capacity: '895cc', Transmission: 'Automatic', Fuel: 'Petrol', Power: '120hp', Rent: 62,
-        imgUrl: "./src/assets/ducati.webp"},
+        imgUrl: "/flights/ducati.webp"},
     }
 
     const currentBike = details[name]

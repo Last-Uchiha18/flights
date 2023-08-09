@@ -14,7 +14,7 @@ function Header() {
         <header>
   
             <a href="">
-                <img src="./src/assets/moto.webp" alt="Bike Logo" className='logo'/>
+                <img src="/flights/moto.webp" alt="Bike Logo" className='logo'/>
             </a>
 
             <ul className='nav-links'>

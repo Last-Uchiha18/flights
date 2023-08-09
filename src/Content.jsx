@@ -1,7 +1,7 @@
 import './content.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faCheck } from '@fortawesome/free-solid-svg-icons'; // Import the icons you want to use
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Content() {
     return (
@@ -17,8 +17,10 @@ function Content() {
                 </div>
             
             </div>
-
-            <img src="./src/assets/mainBike.png" alt="Bike" className='mainBike' />
+            <LazyLoadImage src="/flights/mainBike.png"
+                alt="Image Alt"
+                className='mainBike'
+            />
         </div>
        
     )
