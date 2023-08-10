@@ -36,3 +36,16 @@
     width: 100px;
     height: 100px;
 }
+
+@media screen and (max-width: 768px) {
+   
+    .advt {
+        padding: 0px 25px;
+        text-align: center;
+    }
+
+    .advtGroup {
+        flex-direction: column;
+        gap: 40px;
+    }
+}

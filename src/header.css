@@ -42,3 +42,18 @@ a:hover {
 button:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .nav-links, .register {
+        display: none;
+    }
+
+    header {
+        padding: 0px 25px;
+    }
+    
+    .logo {
+        height: 110px;
+        width: 110px;
+    }
+ }

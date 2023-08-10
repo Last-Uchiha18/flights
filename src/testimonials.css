@@ -63,3 +63,24 @@
     font-size: 22px;
     font-weight: 500;
 }
+
+@media screen and (max-width: 768px) {
+
+    .cards {
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        padding: 20px;
+    }
+   
+    .testimonial {
+        text-align: center;
+        padding: 20px;
+    }
+
+}

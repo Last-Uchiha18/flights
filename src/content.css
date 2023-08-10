@@ -63,3 +63,27 @@ h2 {
     background-color: white;
     color: black;
 }
+
+@media screen and (max-width: 768px) {
+   .mainBike {
+    display: none;
+   }
+
+    .content {
+        padding: 40px 20px;
+    }
+
+    .ride, .more {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .allContent {
+        text-align: center;
+    }
+
+    .content-btn-group {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

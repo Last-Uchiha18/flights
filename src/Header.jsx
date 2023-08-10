@@ -15,7 +15,7 @@ function Header() {
         <header>
   
             <a href="">
-                <LazyLoadImage src="/flights/moto.webp" alt="Bike Logo" className='logo'/>
+                <LazyLoadImage src="/flights/moto.jpeg" alt="Bike Logo" className='logo'/>
             </a>
 
             <ul className='nav-links'>

@@ -51,3 +51,23 @@ input[type="submit"] {
     border:  none;
 
 }
+
+@media screen and (max-width: 768px) {
+
+    .footer {
+        grid-template-columns: 1fr;
+        padding: 25px;
+        text-align: center;
+        row-gap: 60px;
+        padding-top: 50px;
+    }
+
+    .footer-section {
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer :last-child {
+        width: 100%;
+    }
+}
